@@ -42,7 +42,7 @@ jobs:
       - name: Start application    
         run: npm run start
       - name: Install playwrigt browsers    
-        run: npm run start
+        run: npm run start &
       - name: Execute UI Tests    
         run: npm run test:ui     
 
