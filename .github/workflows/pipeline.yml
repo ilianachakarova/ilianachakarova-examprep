@@ -22,7 +22,7 @@ jobs:
       run: npm install
     - name: Execute unit tests
       run: npm run test:unit
-    - name: Print Softuni account
+    - name: Print Softuni username
       run: echo 'ilianachakarova'
 
   execute-ui-tests:
